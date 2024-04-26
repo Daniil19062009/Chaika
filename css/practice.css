@@ -1,0 +1,23 @@
+section.practice{
+    padding-block: 4rem;
+    background-color:  color-mix(in srgb, var(--color-accent), rgb(255, 255, 255));
+    & article{
+        border: medium solid color-mix(in srgb, var(--color-accent), black);
+        min-height: 3em;
+        padding: 1rem;
+        max-width: 500px;
+        background-color: var(--color-accent);
+        border-radius: 1rem;
+        &:nth-child(2n){
+            align-self: flex-end;
+        }
+    }
+    & .articles{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    h2{
+        margin-bottom: 3rem;
+    }
+}

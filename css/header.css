@@ -1,0 +1,24 @@
+header{
+    border-bottom: thin solid var(--color-accent);
+    padding-block: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+    & .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .site-logo{
+        font-size: 40px;
+        line-height: 1;
+        font-family: "Caveat", cursive;
+    }
+}
+header nav{
+    margin-left: auto;
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+}

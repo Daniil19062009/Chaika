@@ -1,0 +1,14 @@
+section.contacts{
+    padding-block: 4rem;
+    background-color: var(--color-accent);
+    & .container{
+        display: flex;
+        gap: 20px;
+    }
+    & h2{
+        margin-bottom: 1rem;
+    }
+    & .field{
+        margin-bottom: 0.5rem;
+    }
+}
